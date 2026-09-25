@@ -12,7 +12,7 @@ DB_PATH = os.getenv("DB_PATH", "/data/app.db")
 @app.get("/")
 def home():
     return {
-        "message": "FastAPI running with Docker Compose",
+        "message": "FastAPI running with Docker Compose v1 Testing",
         "database": DB_PATH
     }
 
